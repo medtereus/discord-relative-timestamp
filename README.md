@@ -1,47 +1,48 @@
-# discrod-relative-timestamp
-[English README](README.EN.md)
-## Описание
-Discord поддерживает специальный формат времени:
+# discord-relative-timestamp
+[README - ru](./README.ru.md)
+## Description
+Discord supports a special timestamp format:
+
 ```text
 <t:UNIX_TIMESTAMP:R>
 ```
-После отправки такого тега Discord автоматически показывает относительное время:
+
+After sending such a tag, Discord automatically displays relative time:
+
 ```text
-через 2 дня
-через 5 часов
-3 минуты назад
-5 часов назад
+in 2 days
+in 5 hours
+3 minutes ago
+5 hours ago
 ```
 
-Меня задолбало каждый раз вручную считать Unix Timestamp через онлайн-конвертеры, поэтому я сделал свою программу для этой задачи.
-Введи количество дней, часов, минут и секунд, нажми Copy — и готовый тег для Discord будет скопирован в буфер обмена.
+I got tired of manually calculating Unix Timestamps using online converters every time, so I made my own application for this task.
+Enter the number of days, hours, minutes, and seconds, press Copy — and the generated Discord tag will be copied to the clipboard.
 
 | Main Screen                    | Settings                        |
 | ------------------------------ | ------------------------------- |
 | ![main](./doc/main_screen.png) | ![settings](./doc/settings.png) |
 
+### Features
+* generate Discord relative timestamps;
+* generate timestamps for both future and past time;
+* add time relative to the current moment;
+* one-click copy to clipboard;
+* light and dark themes;
+* UI Scale setting;
+* minimalist interface;
+* works locally without an internet connection.
 
-### Возможности
-- генерация относительных временных меток Discord;
-- генерация меток как для будущего, так и для прошедшего времени;
-- добавление времени к текущему моменту;
-- копирование результата в один клик;
-- светлая и тёмная темы;
-- настройка масштаба интерфейса (UI Scale);
-- минималистичный интерфейс;
-- работает локально, без интернета.
+## Running
+Download the binary from Releases and run it.
+The application does not require installation and works locally.
 
-
-## Запуск
-Скачайте бинарник из Releases и запустите его.
-Приложение не требует установки и работает локально.
-
-## Используемые технологии
-- golang
-- fyne
+## Technologies Used
+* golang
+* fyne
 
 ## Version History
-* 0.0: Проект создан
-* 0.1: Двойное нажатие esc закрывает программу.
-* 0.2: Всё готово. Слегка полирнуть, и в релиз.
-* 1.0: Релиз.
+* 0.0: Project created.
+* 0.1: Double ESC press closes the application.
+* 0.2: Everything is ready. Just a bit of polishing before release.
+* 1.0: Release.
