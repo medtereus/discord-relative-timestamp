@@ -1,5 +1,5 @@
-# discord-relative-timestamp
-[README - ru](./README.ru.md)
+# Discord Relative Timestamp
+[🇬🇧 English README](./README.md)
 ## Description
 Discord supports a special timestamp format:
 
