@@ -45,3 +45,8 @@ set_linuxCC:
 set_winCC:
 	go env -w CC=x86_64-w64-mingw32-gcc
 	go env -w CXX=x86_64-w64-mingw32-g++
+
+gitC:
+	git add .
+	git commit -m "commit from Makefile"
+	git push -u origin main
