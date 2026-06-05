@@ -1,5 +1,5 @@
 # Discord Relative Timestamp
-[🇷🇺 Русский README](./README.ru.md)
+[🇬🇧 English README](./README.md) | 🇷🇺 Русский README
 ## Описание
 Discord поддерживает специальный формат времени:
 ```text
