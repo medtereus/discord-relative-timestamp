@@ -43,7 +43,7 @@ func SetSettingsView(w fyne.Window) {
 				slider_fyneScale),
 			container.NewGridWithColumns(
 				2,
-				widget.NewButton("LighTheme", func() {
+				widget.NewButton("LightTheme", func() {
 					fyne.CurrentApp().Preferences().SetInt(consts.PK_ThemeVariant, int(theme.VariantLight))
 					fyne.CurrentApp().Settings().SetTheme(
 						&customtheme.ForcedVariant{
