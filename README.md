@@ -1,4 +1,4 @@
-# discrodRelativeTimestamp
+# discrod-relative-timestamp
 ## Описание
 Discord поддерживает специальный формат времени:
 ```text
