@@ -1,0 +1,14 @@
+[Details]
+Icon = "./static/icon.png"
+Name = "discrodRelativeTimestamp"
+ID = "Medtereus.discrodFutureRelativeTimestamp.app"
+Version = "1.0.0"
+Build = 2
+
+
+[LinuxAndBSD]
+GenericName = "Discord Relative Timestamp Helper"
+Categories = ["TextTools", "Utility"]
+Comment = "Create Discord timestamp without headpain"
+Keywords = ["discord", "timestamp", "relative"]
+ExecParams = ""
