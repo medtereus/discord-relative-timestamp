@@ -1,5 +1,5 @@
 # discrod-relative-timestamp
-English README: [README.EN.md]
+[English README](README.EN.md)
 ## Описание
 Discord поддерживает специальный формат времени:
 ```text
