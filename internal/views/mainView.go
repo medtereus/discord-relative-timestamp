@@ -1,8 +1,8 @@
 package views
 
 import (
-	"discrodRelativeTimestamp/consts"
-	"discrodRelativeTimestamp/internal/customwidgets"
+	"discord-relative-timestamp/consts"
+	"discord-relative-timestamp/internal/customwidgets"
 	"fmt"
 	"strconv"
 	"time"

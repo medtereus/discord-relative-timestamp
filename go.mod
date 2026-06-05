@@ -1,4 +1,4 @@
-module discrodRelativeTimestamp
+module discord-relative-timestamp
 
 go 1.25.0
 

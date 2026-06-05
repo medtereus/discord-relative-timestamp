@@ -1,8 +1,8 @@
 package views
 
 import (
-	"discrodRelativeTimestamp/consts"
-	"discrodRelativeTimestamp/internal/customtheme"
+	"discord-relative-timestamp/consts"
+	"discord-relative-timestamp/internal/customtheme"
 	"fmt"
 
 	"fyne.io/fyne/v2"

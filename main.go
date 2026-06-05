@@ -1,10 +1,10 @@
 package main
 
 import (
-	"discrodRelativeTimestamp/consts"
-	"discrodRelativeTimestamp/internal/customtheme"
-	keybindings "discrodRelativeTimestamp/internal/keyBindings"
-	"discrodRelativeTimestamp/internal/views"
+	"discord-relative-timestamp/consts"
+	"discord-relative-timestamp/internal/customtheme"
+	keybindings "discord-relative-timestamp/internal/keyBindings"
+	"discord-relative-timestamp/internal/views"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
