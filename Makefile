@@ -2,7 +2,7 @@ default: run
 _defaultOS = linux
 _defaultARCH = amd64
 
-program_name = discrodFutureRelativeTimestamp
+program_name = discordRelativeTimestamp
 
 targetOS = $(_defaultOS)
 targetARCH = $(_defaultARCH)
